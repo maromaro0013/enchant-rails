@@ -2,6 +2,8 @@ require "enchant/rails/version"
 
 module Enchant
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+      # doing nothing here...
+    end
   end
 end
